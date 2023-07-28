@@ -1,0 +1,69 @@
+.sparent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card2 {
+    margin-top: 34px;
+  }
+.scard{
+    margin: 1.8rem 2rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    border-color: black;
+    /* outline-style: ridge; */
+    box-shadow:10px 10px 20px #b5b5b5;
+    margin-top: 7rem;
+    height:300px;
+}
+.scard img{
+    height: 10rem;
+        border-radius: 1rem;
+
+}
+.card-body{
+    margin-top: 20px;
+}
+
+
+.head{
+    display: block;
+    background: #0B1B2BC6;
+    height: 14rem;
+    width: 90vw;
+    position: absolute;
+    z-index: -1;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    border-radius: 0.8rem;
+
+}
+#heading{
+    
+    margin-left: 6.5rem;
+    margin-top: 11rem;
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+#tec{
+
+    font-size: 1rem;
+    margin-left: 2rem;
+    color: white; 
+    font-family: 'Inter', sans-serif;   
+
+
+}
+.head2{
+    background-color:rgba(43, 19, 9, 0.68);
+    display: block;
+    height: 14rem;
+    width: 90vw;
+    position: absolute;
+    z-index: -1;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    border-radius: 0.8rem;
+}

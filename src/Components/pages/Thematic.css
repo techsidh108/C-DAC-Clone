@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  font-family: "Poppins", sans-serif;
+}
+.list-group{
+    perspective: 200px;
+}
+.list-group-item{
+    transition: 0.4s;
+}
+.list-group-item-action:hover{
+/* transform:translateZ(20px); */
+transform:translateY(10px);
+
+}
+
+.col-lg-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-lg-9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    height: 95vh;
+}
+
+.cardt-img-top{
+    position: absolute;
+    padding-right: 11rem;
+    padding-bottom: 10px;
+    background-position: right center;
+    left: 290px;
+    top: 0rem;
+    opacity: 0.75;
+    
+}
+.cardt-body {
+    margin: 30px;
+  }
+
+.btn2{
+    background-color: rgb(203, 203, 203);
+
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.btn2:hover{
+    color: black;
+    background-color: rgb(255, 255, 93);
+}
+
+.card{
+    background: rgb(247, 247, 247);
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.cardt-text{
+    z-index: 1;
+    
+}
+
+.list-group{
+    height: 95vh;
+    margin-top: 1.3rem;
+    
+}
+
+.list-group-item{
+    margin-top: 1.4rem;
+    padding: 1rem;
+    margin-left: 1.4rem;
+    border-bottom: 1px solid rgb(128, 126, 126);
+}
+
+.heading{
+    margin-left: 2rem;
+    margin-top: 1.3rem;
+    color: rgb(46, 69, 136);
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: Inter, sans-serif;
+    border-bottom: 1px solid rgb(128, 126, 126);
+    padding-bottom: 0.39rem;
+}

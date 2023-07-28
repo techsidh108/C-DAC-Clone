@@ -1,0 +1,41 @@
+.text-uppercase{
+    color: rgb(5, 40, 155);
+    border-bottom: 1px solid rgb(151, 148, 148);
+    padding: 10px 0px;
+}
+
+.list-unstyled{
+   padding-top: 8.5px;
+}
+.list-unstyled1{
+   padding-top: 8.5px;
+}
+.list-unstyled li{
+    list-style: disc;
+    color: black;
+    text-align: left;
+}
+.list-unstyled1 li{
+    list-style: disc;
+    color: black;
+    display: list-item;
+    box-sizing: border-box;
+    text-align: left;
+}
+.list-unstyled1 li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.list-unstyled1 li a:hover{
+    text-decoration: none;
+    color: rgb(39, 84, 231);
+    
+}
+
+.container-fluid{
+    height: 40vh;
+}
+#rowId1{
+    height: 50vh;
+}

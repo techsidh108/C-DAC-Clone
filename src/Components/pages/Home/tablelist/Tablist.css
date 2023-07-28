@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto+Slab:wght@300;400&family=Sedgwick+Ave+Display&display=swap');
+
+.nav-tabs{
+
+    /* height: 95vh; */
+    width: 100%;
+
+}
+.nav-tabs li{
+    width: 33.3%;
+}
+
+.tab-content{
+
+    background-color:rgb(255, 247, 238);
+    height:600px;
+    /* font-family: 'Roboto Slab', serif; */
+   
+}
+
+.nav-link{
+
+        width: 23.159rem;
+        color: black;
+}
+
+.tab-pane{
+    margin-left: 1.6rem;
+    margin-top: 2rem;
+}
+.tab-pane li{
+
+    list-style-type: disc;
+
+}
+.col-lg-12{
+    background-color:rgb(255, 247, 238);
+    
+}
+
+.container10{
+    font-family: 'Sedgwick Ave Display', cursive;
+    width: 95vw;
+margin-left: 41px;
+
+}
+#home-tab {
+    width: 488px;
+  }
+  #contact-tab {
+    width: 490px;
+  }
+  #profile-tab {
+    width: 490px;
+  }
+
+  
+  
+  
+  
+  
+  
+
